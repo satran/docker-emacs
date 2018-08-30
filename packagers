@@ -1,0 +1,6 @@
+;; This buffer is for text that is not saved, and for Lisp evaluation.
+;; To create a file, visit it with C-x C-f and enter text in its buffer.
+
+solarized-theme quasi-monochrome-theme monochrome-theme 
+
+(mapc package-install '(autothemer company-go bash-completion use-package elnode smex paredit magit ido-vertical-mode go-guru go-eldoc go-autocomplete go-mode flycheck))
